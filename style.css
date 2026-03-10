@@ -1,0 +1,181 @@
+h1, h2 {
+    text-align: center;
+    color: #E2725B;
+}
+
+body {
+    background-color: #F5F5DC;
+}
+.container-produits {
+  display: flex;          /* Aligne les enfants horizontalement */
+  justify-content: center; /* Centre les articles sur la ligne */
+  gap: 20px;              /* Crée un espace entre chaque article */
+  padding: 40px;
+  flex-wrap: wrap;        /* Si l'écran est petit (mobile), les articles vont à la ligne */
+}
+
+.carte-produit {
+  background-color: #FAF9F6; /* Couleur douce (Blanc cassé) */
+  border-radius: 15px;       /* Coins arrondis pour la douceur */
+  padding: 20px;
+  width: 300px;              /* Largeur de chaque article */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Ombre très légère */
+}
+
+
+.carte-produit img {
+  width: 100%;               /* L'image prend toute la largeur de la carte */
+  border-radius: 10px;       /* Coins arrondis sur l'image aussi */
+}
+
+.btn-contact {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #B2AC88; /* Vert sauge doux */
+  color: white;
+  text-decoration: none;     /* Enlève le soulignement du lien */
+  border-radius: 50px;       /* Forme pilule très douce */
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transition fluide pour l'effet au survol */
+  font-size: 0.9em;
+}
+
+/* Effet quand on passe la souris dessus */
+.btn-contact:hover {
+  background-color: #9A9473; /* Un vert un peu plus foncé */
+  transform: translateY(-3px); /* Le bouton monte légèrement */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Ombre douce au survol */
+}
+
+h3 {
+  color: #4B3621;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Style de la barre de navigation */
+*{
+  text-decoration: none;
+}
+.navbar {
+background: #9A9473;
+font-family: playfair display;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding:10px;
+  width: 200px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a-propos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espace entre le texte et l'image */
+    margin-bottom: 80px;
+    flex-wrap: wrap; /* Pour le mobile */
+}
+
+.text-block {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-block {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-block img {
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px #B2AC88; /* Un petit décor derrière l'image */
+}
+
+.valeurs-grid {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.dormir {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
